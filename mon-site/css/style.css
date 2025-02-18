@@ -1,0 +1,302 @@
+/* Global Styles */
+.birthstone-regular {
+    font-family: "Birthstone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    /* Vert apaisant */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #646060;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Birthstone", serif;
+    font-style: normal;
+    transition: color 0.3s ease-in-out;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #121110;
+    /* Une couleur douce qui attire l’attention */
+}
+
+/* Hero Section */
+#hero {
+    background: url('../images/Drainage.jpg') no-repeat center center/cover;
+
+    /* Image d'arrière-plan relaxante */
+    color: rgb(49, 47, 51);
+    padding: 120px 20px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+    /**/
+    color: #212020;
+
+    font-family: "Birthstone", serif;
+    font-style: normal;
+}
+
+#hero p {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#hero .btn {
+    background-color: #ff6347;
+    /* Une couleur chaude et relaxante */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #471f19;
+}
+
+/* story Section */
+#story {
+    background: url('../images/Drainage_story.jpg') no-repeat center center/cover;
+
+
+    /* Image d'arrière-plan relaxante */
+    color: rgb(49, 47, 51);
+    padding: 120px 20px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#story h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+    /**/
+    color: #212020;
+
+    font-family: "Birthstone", serif;
+    font-style: normal;
+}
+
+#story p {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#story .btn {
+    background-color: #ff6347;
+    /* Une couleur chaude et relaxante */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+    background-color: #e5533d;
+}
+
+/* Section Services */
+#services {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    color: #009688;
+    margin-bottom: 30px;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    /* Effet de survol */
+}
+
+.service-item h3 {
+    font-size: 2rem;
+    color: #009688;
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 1.2rem;
+}
+
+.service-item strong {
+    color: #ff6347;
+    font-size: 1.4rem;
+}
+
+.service-item .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #009688;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.service-item .btn:hover {
+    background-color: #00796b;
+}
+
+/* Formulaire de Contact */
+#contact {
+    padding: 60px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+form button {
+    background-color: #ff6347;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e5533d;
+}
+
+form input:focus,
+form select:focus,
+form button:focus {
+    outline: none;
+    border-color: #009688;
+}
+
+/*Section témoingnage*/
+
+.temoignages {
+    background: #f8f8f8;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    padding: 20px;
+    text-align: center;
+}
+
+.avis {
+    font-style: italic;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    background: #008080;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
