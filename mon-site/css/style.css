@@ -284,8 +284,7 @@ footer a {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    padding: 20px 0;
-    background: #008080;
+
 }
 
 footer a:hover {
@@ -293,10 +292,30 @@ footer a:hover {
 }
 
 .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
     margin-top: 10px;
 }
 
-.social-icons a {
-    display: inline-block;
-    margin: 0 10px;
+.social-icons a img {
+    width: 50px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* Effet de zoom au survol */
+.social-icons a:hover img {
+    transform: scale(1.2);
+    /* Agrandissement */
+    filter: brightness(1.2);
+    /* Rend l'image plus lumineuse */
+}
+
+/* Effet de rotation */
+.social-icons a:hover img {
+    transform: rotate(10deg) scale(1.2);
+}
+
+.wecasa {
+    border-radius: 50%;
 }
