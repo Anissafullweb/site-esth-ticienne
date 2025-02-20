@@ -103,10 +103,10 @@ nav ul li a:hover {
     background-color: #471f19;
 }
 
-/* story Section */
+/* Début story Section */
 #story {
-    background: url('../images/Drainage_story.jpg') no-repeat center center/cover;
 
+    background: url('../images/meditation.jpg') no-repeat center center/cover;
 
     /* Image d'arrière-plan relaxante */
     color: rgb(49, 47, 51);
@@ -128,9 +128,25 @@ nav ul li a:hover {
     font-style: normal;
 }
 
+#bio {
+
+    /* Augmentation de la taille du texte */
+    line-height: 1.8;
+    color: #dbdbe1;
+    font-family: 'Playfair Display', serif;
+    background: rgba(0, 0, 0, 0.7);
+    /* Fond semi-transparent noir */
+    border-radius: 5px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    /* Ombre pour améliorer la lisibilité */
+    padding: 1rem;
+}
+
 #story p {
     font-size: 1.4rem;
     font-style: italic;
+    font-weight: bolder;
     margin-bottom: 30px;
 }
 
@@ -147,8 +163,55 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
+/* Fin story Section */
+
 #hero .btn:hover {
     background-color: #e5533d;
+}
+
+/* Début Section bienfaits*/
+
+#bienfaits {
+    background: url('../images/Drainage_story.jpg') no-repeat center center/cover;
+
+
+    /* Image d'arrière-plan relaxante */
+    color: rgb(49, 47, 51);
+    padding: 120px 20px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bienfaits h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-family: 'Georgia', serif;
+    /**/
+    color: #212020;
+
+    font-family: "Birthstone", serif;
+    font-style: normal;
+}
+
+#bienfaits p {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+#bienfaits .btn {
+    background-color: #ff6347;
+    /* Une couleur chaude et relaxante */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 /* Section Services */
