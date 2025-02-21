@@ -37,6 +37,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 20px;
+    padding-left: 10px;
 }
 
 nav ul li a {
@@ -134,7 +135,7 @@ nav ul li a:hover {
     line-height: 1.8;
     color: #dbdbe1;
     font-family: 'Playfair Display', serif;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(7, 7, 7, 0.3);
     /* Fond semi-transparent noir */
     border-radius: 5px;
     text-align: justify;
@@ -164,7 +165,32 @@ nav ul li a:hover {
 }
 
 /* Fin story Section */
+/*Les bienfaits paragraphe style*/
+.highlight {
+    font-weight: bold;
+    color: #4CAF50;
+}
 
+/* Boîte pour chaque bienfait */
+#article p{
+    color: #121110;
+}
+.benefit {
+    background-color:rgba(0, 0, 0, 0.15) #ffffff;
+    border-left: 5px solid #4CAF50;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Effet au survol */
+.benefit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+/*Fin bienfaits*/
 #hero .btn:hover {
     background-color: #e5533d;
 }
@@ -172,7 +198,7 @@ nav ul li a:hover {
 /* Début Section bienfaits*/
 
 #bienfaits {
-    background: url('../images/Drainage_story.jpg') no-repeat center center/cover;
+    background: url('../images/4_saisons-1.jpg') no-repeat center center/cover;
 
 
     /* Image d'arrière-plan relaxante */
@@ -187,18 +213,18 @@ nav ul li a:hover {
 #bienfaits h1 {
     font-size: 3rem;
     margin-bottom: 15px;
-    font-family: 'Georgia', serif;
-    /**/
-    color: #212020;
-
+    color: #bbb4b4;
     font-family: "Birthstone", serif;
     font-style: normal;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
 }
 
 #bienfaits p {
     font-size: 1.4rem;
     font-style: italic;
     margin-bottom: 30px;
+    color: #bbb4b4;
 }
 
 #bienfaits .btn {
