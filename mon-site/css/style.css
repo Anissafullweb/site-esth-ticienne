@@ -71,7 +71,7 @@ nav ul li a:hover {
 }
 
 #hero h1 {
-font-size: 3rem;
+    font-size: 3rem;
     margin-bottom: 15px;
     color: #bbb4b4;
     font-family: "Birthstone", serif;
@@ -127,10 +127,10 @@ font-size: 3rem;
     font-family: "Birthstone", serif;
     font-style: normal;
     background: rgba(7, 7, 7, 0.3);
-        border-radius: 5px;
-        text-align: justify;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        padding: 1rem;
+    border-radius: 5px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
 }
 
 #bio {
@@ -139,7 +139,7 @@ font-size: 3rem;
     line-height: 1.8;
     color: #dbdbe1;
     font-family: 'Playfair Display', serif;
-    background: rgba(7, 7, 7, 0.8);
+    background: rgba(7, 7, 7, 0.4);
     /* Fond semi-transparent noir */
     border-radius: 5px;
     text-align: justify;
@@ -154,17 +154,17 @@ font-size: 3rem;
     font-weight: bolder;
     margin-bottom: 30px;
     font-size: 1.4rem;
-        font-style: italic;
-        margin-bottom: 30px;
-        color: #bbb4b4;
-        line-height: 1.8;
-        color: #dbdbe1;
-        font-family: 'Playfair Display', serif;
-        background: rgba(7, 7, 7, 0.8);
-        border-radius: 5px;
-        text-align: justify;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        padding: 1rem;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #bbb4b4;
+    line-height: 1.8;
+    color: #dbdbe1;
+    font-family: 'Playfair Display', serif;
+    background: rgba(7, 7, 7, 0.8);
+    border-radius: 5px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
 }
 
 #story .btn {
@@ -385,13 +385,15 @@ form button:focus {
     font-style: italic;
     color: #555;
 }
+
 /*Image Wats App*/
 
 
 aside img {
-        width: 10rem;
-        margin-top: 3rem;
+    width: 10rem;
+    margin-top: 3rem;
 }
+
 /* Footer */
 footer {
     background-color: #009688;
