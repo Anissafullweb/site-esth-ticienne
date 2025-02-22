@@ -180,6 +180,19 @@ nav ul li a:hover {
     transition: background-color 0.3s ease;
 }
 
+a.btn {
+    background-color: #ff6347;
+    /* Une couleur chaude et relaxante */
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
 /* Fin story Section */
 /*Les bienfaits paragraphe style*/
 .highlight {
