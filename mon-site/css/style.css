@@ -1,458 +1,371 @@
-/* Global Styles */
-.birthstone-regular {
-    font-family: "Birthstone", serif;
-    font-weight: 400;
+#bienfaits h1,
+#hero h1,
+.birthstone-regular,
+nav ul li a {
     font-style: normal;
+    font-family: Birthstone, serif
+}
+
+#bienfaits h1,
+#hero h1,
+#story h1,
+.birthstone-regular,
+nav ul li a {
+    font-family: Birthstone, serif
+}
+
+#hero p,
+#story p {
+    margin-bottom: 30px
+}
+
+#article p,
+nav ul li a:hover {
+    color: #121110
+}
+
+#bienfaits,
+#hero,
+#story {
+    color: #312f33;
+    padding: 120px 20px
+}
+
+#contact,
+#services {
+    padding: 60px 20px
+}
+
+#contact,
+body {
+    background-color: #f4f4f9
+}
+
+#services,
+form {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1)
+}
+
+.benefit,
+.service-item,
+form {
+    border-radius: 8px
+}
+
+#services,
+form,
+header {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1)
+}
+
+.service-item .btn,
+footer {
+    background-color: #009688;
+    font-size: 1.1rem
+}
+
+footer,
+header {
+    padding: 20px 0;
+    color: #fff;
+    text-align: center
+}
+
+.service-item .btn,
+footer a,
+nav ul li a {
+    text-decoration: none
+}
+
+#bienfaits,
+#contact,
+#hero,
+#services,
+#story,
+.temoignages,
+footer,
+footer a,
+header {
+    text-align: center
+}
+
+footer a:hover,
+nav ul li a:hover {
+    text-decoration: underline
+}
+
+.birthstone-regular {
+    font-weight: 400
+}
+
+.highlight,
+.service-item .btn,
+footer a,
+form button,
+nav ul li a {
+    font-weight: 700
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.6
 }
 
-/* Header */
 header {
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    /* Vert apaisant */
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to right, #fa709a 0, #fee140 100%)
 }
 
 header h1 {
     font-size: 2.5rem;
-    margin: 0;
+    margin: 0
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 0
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
-    padding-left: 10px;
+    padding-left: 10px
 }
 
 nav ul li a {
     color: #646060;
-    text-decoration: none;
-    font-weight: bold;
     font-size: 3rem;
-    font-family: "Birthstone", serif;
-    font-style: normal;
-    transition: color 0.3s ease-in-out;
+    transition: color .3s ease-in-out
 }
 
-
-nav ul li a:hover {
-    text-decoration: underline;
-    color: #121110;
-    /* Une couleur douce qui attire l’attention */
-}
-
-/* Hero Section */
 #hero {
-    background: url('../images/Drainage.jpg') no-repeat center center/cover;
-
-    /* Image d'arrière-plan relaxante */
-    color: rgb(49, 47, 51);
-    padding: 120px 20px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background: url('../images/Drainage.jpg') center/cover no-repeat fixed
 }
 
+#bienfaits h1,
 #hero h1 {
     font-size: 3rem;
     margin-bottom: 15px;
     color: #bbb4b4;
-    font-family: "Birthstone", serif;
-    font-style: normal;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 10px
 }
 
 #hero p {
     font-size: 1.4rem;
-    font-style: italic;
-    margin-bottom: 30px;
+    font-style: italic
 }
 
-#hero .btn {
-    background-color: #ff6347;
-    /* Une couleur chaude et relaxante */
-    color: white;
+#bienfaits .btn,
+#hero .btn,
+#story .btn,
+a.btn {
+    background-color: tomato;
+    color: #fff;
     padding: 15px 30px;
     font-size: 1.2rem;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    font-weight: 700;
+    transition: background-color .3s
 }
 
-#hero .btn:hover {
-    background-color: #471f19;
-}
-
-/* Début story Section */
 #story {
-
-    background: url('../images/meditation.jpg') no-repeat center center/cover;
-
-    /* Image d'arrière-plan relaxante */
-    color: rgb(49, 47, 51);
-    padding: 120px 20px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background: url('../images/meditation.jpg') center/cover no-repeat fixed
 }
 
 #story h1 {
     font-size: 3rem;
     margin-bottom: 15px;
-    font-family: 'Georgia', serif;
-    /**/
     color: #b9b4b4;
-
-    font-family: "Birthstone", serif;
     font-style: normal;
-    background: rgba(7, 7, 7, 0.3);
+    background: rgba(7, 7, 7, .3);
     border-radius: 5px;
     text-align: justify;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+    padding: 1rem
+}
+
+#bienfaits p,
+#story p {
+    font-size: 1.4rem;
+    background: rgba(7, 7, 7, .8)
+}
+
+#bienfaits p,
+#bio,
+#story p {
+    line-height: 1.8;
+    color: #dbdbe1;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
     padding: 1rem;
+    border-radius: 5px
+}
+
+#bienfaits p,
+#story p,
+.avis {
+    font-style: italic
 }
 
 #bio {
-
-    /* Augmentation de la taille du texte */
-    line-height: 1.8;
-    color: #dbdbe1;
-    font-family: 'Playfair Display', serif;
-    background: rgba(7, 7, 7, 0.4);
-    /* Fond semi-transparent noir */
-    border-radius: 5px;
-    text-align: justify;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    /* Ombre pour améliorer la lisibilité */
-    padding: 1rem;
+    background: rgba(7, 7, 7, .4)
 }
 
 #story p {
-    font-size: 1.4rem;
-    font-style: italic;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    font-size: 1.4rem;
-    font-style: italic;
-    margin-bottom: 30px;
-    color: #bbb4b4;
-    line-height: 1.8;
-    color: #dbdbe1;
-    font-family: 'Playfair Display', serif;
-    background: rgba(7, 7, 7, 0.8);
-    border-radius: 5px;
-    text-align: justify;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    padding: 1rem;
+    font-weight: bolder
 }
 
-#story .btn {
-    background-color: #ff6347;
-    /* Une couleur chaude et relaxante */
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-a.btn {
-    background-color: #ff6347;
-    /* Une couleur chaude et relaxante */
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-/* Fin story Section */
-/*Les bienfaits paragraphe style*/
 .highlight {
-    font-weight: bold;
-    color: #4CAF50;
-}
-
-/* Boîte pour chaque bienfait */
-#article p {
-    color: #121110;
+    color: #4caf50
 }
 
 .benefit {
-    background-color: rgba(0, 0, 0, 0.15) #ffffff;
-    border-left: 5px solid #4CAF50;
+    background-color: rgba(0, 0, 0, .15) #fff;
+    border-left: 5px solid #4caf50;
     padding: 15px;
     margin: 15px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    transition: transform .2s ease-in-out, box-shadow .2s ease-in-out
 }
 
-/* Effet au survol */
 .benefit:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .15)
 }
 
-/*Fin bienfaits*/
-#hero .btn:hover {
-    background-color: #e5533d;
+#hero .btn:hover,
+form button:hover {
+    background-color: #e5533d
 }
-
-/* Début Section bienfaits*/
 
 #bienfaits {
-    background: url('../images/4_saisons.webp') no-repeat center center/cover;
-
-
-    /* Image d'arrière-plan relaxante */
-    color: rgb(49, 47, 51);
-    padding: 120px 20px;
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-#bienfaits h1 {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    color: #bbb4b4;
-    font-family: "Birthstone", serif;
-    font-style: normal;
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
+    background: url('../images/4_saisons.webp') center/cover no-repeat fixed
 }
 
 #bienfaits p {
-    font-size: 1.4rem;
-    font-style: italic;
-    margin-bottom: 30px;
-    color: #bbb4b4;
-    line-height: 1.8;
-    color: #dbdbe1;
-    font-family: 'Playfair Display', serif;
-    background: rgba(7, 7, 7, 0.8);
-    border-radius: 5px;
-    text-align: justify;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-    padding: 1rem;
-}
-
-
-#bienfaits .btn {
-    background-color: #ff6347;
-    /* Une couleur chaude et relaxante */
-    color: white;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-/* Section Services */
-#services {
-    padding: 60px 20px;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px
 }
 
 #services h2 {
     font-size: 2.5rem;
     color: #009688;
-    margin-bottom: 30px;
+    margin-bottom: 30px
 }
 
 .service-item {
     background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
     margin-bottom: 30px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform .3s ease-in-out
 }
 
 .service-item:hover {
-    transform: translateY(-10px);
-    /* Effet de survol */
+    transform: translateY(-10px)
 }
 
 .service-item h3 {
     font-size: 2rem;
     color: #009688;
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
 
 .service-item p {
-    font-size: 1.2rem;
+    font-size: 1.2rem
 }
 
 .service-item strong {
-    color: #ff6347;
-    font-size: 1.4rem;
+    color: tomato;
+    font-size: 1.4rem
 }
 
 .service-item .btn {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #009688;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 5px
 }
 
 .service-item .btn:hover {
-    background-color: #00796b;
-}
-
-/* Formulaire de Contact */
-#contact {
-    padding: 60px 20px;
-    background-color: #f4f4f9;
-    text-align: center;
+    background-color: #00796b
 }
 
 form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px
 }
 
+form button,
 form input,
-form select,
-form button {
+form select {
     width: 96%;
     padding: 15px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 1.1rem
 }
 
 form button {
-    background-color: #ff6347;
-    color: white;
-    font-weight: bold;
+    background-color: tomato;
+    color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color .3s
 }
 
-form button:hover {
-    background-color: #e5533d;
-}
-
+form button:focus,
 form input:focus,
-form select:focus,
-form button:focus {
-    outline: none;
-    border-color: #009688;
+form select:focus {
+    outline: 0;
+    border-color: #009688
 }
-
-/*Section témoingnage*/
 
 .temoignages {
     background: #f8f8f8;
-    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-    padding: 20px;
-    text-align: center;
+    background-image: linear-gradient(to right, #fa709a 0, #fee140 100%);
+    padding: 20px
 }
 
 .avis {
-    font-style: italic;
-    color: #555;
+    color: #555
 }
-
-/*Image Wats App*/
-
 
 aside img {
     width: 10rem;
-    margin-top: 3rem;
-}
-
-/* Footer */
-footer {
-    background-color: #009688;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 1.1rem;
+    margin-top: 3rem
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-
-}
-
-footer a:hover {
-    text-decoration: underline;
+    color: #fff
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .social-icons a img {
     width: 50px;
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    transition: transform .3s ease-in-out, filter .3s ease-in-out
 }
 
-/* Effet de zoom au survol */
 .social-icons a:hover img {
     transform: scale(1.2);
-    /* Agrandissement */
     filter: brightness(1.2);
-    /* Rend l'image plus lumineuse */
-}
-
-/* Effet de rotation */
-.social-icons a:hover img {
-    transform: rotate(10deg) scale(1.2);
+    transform: rotate(10deg) scale(1.2)
 }
 
 .wecasa {
-    border-radius: 50%;
+    border-radius: 50%
 }
