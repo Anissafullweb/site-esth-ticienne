@@ -1,9 +1,18 @@
+#bienfaits .btn,
+#hero .btn,
+#story .btn,
+a.btn,
+form button {
+    background-color: tomato;
+    transition: background-color .3s;
+    color: #fff
+}
+
 #bienfaits h1,
 #hero h1,
 .birthstone-regular,
 nav ul li a {
-    font-style: normal;
-    font-family: Birthstone, serif
+    font-style: normal
 }
 
 #bienfaits h1,
@@ -14,6 +23,7 @@ nav ul li a {
     font-family: Birthstone, serif
 }
 
+#bienfaits p,
 #hero p,
 #story p {
     margin-bottom: 30px
@@ -33,7 +43,8 @@ nav ul li a:hover {
 
 #contact,
 #services {
-    padding: 60px 20px
+    padding: 60px 20px;
+    background-image: linear-gradient(to top, #cfd9df 0, #e2ebf0 100%)
 }
 
 #contact,
@@ -43,8 +54,7 @@ body {
 
 #services,
 form {
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, .1)
+    background-color: #fff
 }
 
 .benefit,
@@ -68,8 +78,7 @@ footer {
 footer,
 header {
     padding: 20px 0;
-    color: #fff;
-    text-align: center
+    color: #fff
 }
 
 .service-item .btn,
@@ -88,6 +97,15 @@ footer,
 footer a,
 header {
     text-align: center
+}
+
+#bienfaits p,
+#bio,
+#story h1,
+#story p {
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+    padding: 1rem
 }
 
 footer a:hover,
@@ -163,15 +181,12 @@ nav ul li a {
 #hero .btn,
 #story .btn,
 a.btn {
-    background-color: tomato;
-    color: #fff;
     padding: 15px 30px;
     font-size: 1.2rem;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700;
-    transition: background-color .3s
+    font-weight: 700
 }
 
 #story {
@@ -184,10 +199,7 @@ a.btn {
     color: #b9b4b4;
     font-style: normal;
     background: rgba(7, 7, 7, .3);
-    border-radius: 5px;
-    text-align: justify;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
-    padding: 1rem
+    border-radius: 5px
 }
 
 #bienfaits p,
@@ -202,9 +214,6 @@ a.btn {
     line-height: 1.8;
     color: #dbdbe1;
     font-family: 'Playfair Display', serif;
-    text-align: justify;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
-    padding: 1rem;
     border-radius: 5px
 }
 
@@ -249,10 +258,6 @@ form button:hover {
     background: url('../images/4_saisons.webp') center/cover no-repeat fixed
 }
 
-#bienfaits p {
-    margin-bottom: 30px
-}
-
 #services h2 {
     font-size: 2.5rem;
     color: #009688;
@@ -260,7 +265,7 @@ form button:hover {
 }
 
 .service-item {
-    background-color: #f9f9f9;
+    background-image: linear-gradient(to top, #fad0c4 0, #ffd1ff 100%);
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
     margin-bottom: 30px;
@@ -300,7 +305,8 @@ form button:hover {
 form {
     max-width: 600px;
     margin: 0 auto;
-    padding: 30px
+    padding: 30px;
+    background-image: linear-gradient(to top, #ff9a9e 0, #fecfef 99%, #fecfef 100%)
 }
 
 form button,
@@ -315,11 +321,8 @@ form select {
 }
 
 form button {
-    background-color: tomato;
-    color: #fff;
     border: none;
-    cursor: pointer;
-    transition: background-color .3s
+    cursor: pointer
 }
 
 form button:focus,
