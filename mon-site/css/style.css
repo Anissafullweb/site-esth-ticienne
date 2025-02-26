@@ -142,7 +142,7 @@ nav ul li a {
 }
 
 #hero {
-    background: url('../images/Drainage.jpg') center/cover no-repeat fixed
+    background: url('../images/Drainage.webp') center/cover no-repeat fixed
 }
 
 #bienfaits h1,
@@ -175,7 +175,7 @@ a.btn {
 }
 
 #story {
-    background: url('../images/meditation.jpg') center/cover no-repeat fixed
+    background: url('../images/meditation.webp') center/cover no-repeat fixed
 }
 
 #story h1 {
